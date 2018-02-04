@@ -1,0 +1,289 @@
+/* Universal Styles */
+
+html {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  
+  width: 100%;
+  background-color: #fafafa;
+  z-index: 5;
+  height: auto;
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.logo {
+    width: 8rem;
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: inherit;
+}
+
+.search {
+    height: 2rem;
+    width: 40.6rem;
+    border: 0.05rem solid lightgrey;
+    padding: 0.4rem 0.3rem 0.4rem 0.6rem;
+    background-color: white;
+}
+
+input {
+    height: 1.8rem;
+    border: none;
+    font: 1rem arial, sans-serif;
+}
+
+.lupe {
+	height: 1.3rem;
+	float: right;
+	margin: 0.32rem
+}
+
+header a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 1.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+}
+
+.searchnav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9rem;
+}
+
+.searchnav li {
+    min-width: 3rem;
+    text-align: center;
+    padding: 0 16px;
+    font: 0.9rem "arial", sans-serif; 
+    color: lightgray;
+}
+
+.searchnav li .active {
+    border-bottom: solid;
+    padding-bottom: 0.5rem;
+    color: #1A73E8;
+    font-weight: 700;
+}
+
+header .icon {
+  width: 1.5rem;
+  /*padding-right: .75rem;*/
+}
+
+header .iconw {
+    width: 2rem;
+	border-radius: 50%;
+}
+
+/* Main Content */
+
+.main {
+	margin-left: 10rem;
+	max-width: 40rem;
+	padding-left: 0.6rem
+}
+
+.main-content {
+    display: flex;
+    padding: 1rem 9.4rem;
+}
+
+.info {
+	margin: 1rem 0;
+    font: 0.8rem "arial", sans-serif; 
+    color: gray;
+}
+
+.searchresult {
+	line-height: 1.4;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	color: #1a0dab;
+}
+
+
+.link-info,
+.link-list {
+	color: #545454;
+	font-size: 0.8rem;
+}
+
+.link-list {
+	color: #1a0dab;
+}
+
+.res-p {
+	font-size: 0.9rem;
+	color: #1a0dab;
+}
+
+.res-link {
+	font-size: 0.9rem;
+	color: #006621;
+	padding-right: 1rem;
+	text-decoration: none;
+}
+
+.link-list :hover {
+	text-decoration: underline;
+}
+
+h3:hover {
+	text-decoration: underline;
+}
+
+.similars,
+.pagination {
+	margin-bottom: 2rem;
+}
+
+.similars h3 {
+	color: black;
+	margin-bottom: 1rem;
+}
+
+.similars h3:hover {
+	text-decoration: none;
+} 
+
+td {
+	color: #1a0dab;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	width: 18rem
+}
+
+.bold {
+	font-weight: bold;
+}
+
+td:hover {
+	text-decoration: underline;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination img  {
+	height: 1rem;
+	margin-left: 1rem;
+}
+
+.google {
+	font-size: 2rem;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: orange;
+}
+
+.green {
+	color: #4fad4f
+}
+
+.num {
+	letter-spacing: 0.65rem;
+	padding-left: 2.5rem;
+	font-size: 0.8rem;
+	padding-top: 0.5rem;
+	color: blue;
+}
+
+.nospace {
+	letter-spacing: normal;
+}
+
+.black {
+	color: black;
+}
+
+.space {
+	margin-left: 3rem;
+	letter-spacing: 0;
+	color: blue;
+}
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;;
+    color: gray;
+    font-size: 0.8rem;   
+}
+
+footer .content,
+.navfooter ul {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+footer .content {
+    padding-left: 9rem;
+    border-bottom: solid 0.01rem lightgray;    
+}
+
+.location {
+    padding-right: 2rem;
+    font-size: 1rem;
+}
+
+.navfooter ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7.4rem;
+}
+
+.navfooter li a {
+    min-width: 3rem;
+    font: 0.8rem "arial", sans-serif; 
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+
